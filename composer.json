@@ -1,0 +1,22 @@
+{
+    "name": "gotapi/ip4dev",
+    "description": "fetch ip information from https://ip4.dev/location",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gotapi\\Ip4dev\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pushit",
+            "email": "pushit@gotapi.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "7.4.x-dev",
+        "ext-json": "*"
+    }
+}
